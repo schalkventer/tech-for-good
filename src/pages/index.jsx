@@ -9,7 +9,7 @@ export default function Index() {
     <div>
       <Heading level={2}>🌍 What is Tech for Good?</Heading>
       <p>
-        <em>Tech for Good</em> member is a 200+ strong community of South African tech professionals interested in using their skills after-hours for social good.
+        <em>Tech for Good</em> is a 200+ member strong community of South African tech professionals interested in using their skills after-hours for social good.
       </p>
 
       <Heading level={2}>👪 Can I join?</Heading>
