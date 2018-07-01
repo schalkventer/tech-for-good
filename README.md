@@ -24,7 +24,7 @@ The following Gatsby plugins are used:
 
 ## Development
 
-1. Clone this project by running `git clone https://githubcom/public-people/public-people-frontend`.
+1. Clone this project by running `git clone https://github.com/schalkventer/tech-for-good.git`.
 2. Make sure you have [NodeJS](https://nodejs.org/en/) installed.
 3. Run `npm install` in the root folder of the repository.
 4. Run `npm start` to spin up the development server.*
