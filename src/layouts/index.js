@@ -20,7 +20,7 @@ const meta = (
   <Helmet
     title="Tech for Good"
     meta={[
-      { name: 'description', content: 'Tech for Good member is a 200+ strong community of South African tech professionals interested in using their skills after-hours for social good.' },
+      { name: 'description', content: 'Tech for Good is a 200+ member strong community of South African tech professionals interested in using their skills after-hours for social good.' },
     ]}
   />
 );
