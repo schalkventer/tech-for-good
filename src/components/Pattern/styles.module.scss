@@ -1,0 +1,34 @@
+:local .description {
+  padding: 15px 30px;
+  background: #eee;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+:local .iframe {
+  width: 100%;
+  resize: horizontal;
+}
+
+:local .notice {
+  padding: 15px 30px;
+  background: #eee;
+  background-color: #d6d8d9;
+  border-color: #c6c8ca;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+:local .code {
+  padding: 15px;
+  background: black;
+  color: white;
+  display: block;
+  white-space: normal;
+}
+
+:local .dropdown {
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px;
+}

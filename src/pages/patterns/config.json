@@ -1,0 +1,33 @@
+{
+  "examples": {
+    "Heading": [
+      {
+        "name": "base",
+        "filename": "Heading",
+        "code": "<Heading level={2}>Lorem Ipsum</Heading>"
+      }
+    ],
+    "Button": [
+      {
+        "name": "Normal link",
+        "filename": "Button",
+        "height": 50,
+        "code": "<Button link=\"#\">Lorem Ipsum</Button>"
+      },
+      {
+        "name": "JavaScript Event",
+        "filename": "ButtonEvent",
+        "height": 50,
+        "code": "<Button onClick={() => console.log('clicked')}>Lorem Ipsum</Button>"
+      }
+    ],
+    "Logo": [
+      { 
+        "name": "base", 
+        "filename": "Logo", 
+        "height": 150,
+        "code": "<Logo breakpoint={400} />"
+      }
+    ]
+  }
+}

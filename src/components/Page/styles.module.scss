@@ -1,0 +1,23 @@
+:local .root {
+  padding: 70px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:local .header {
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+:local .main {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 600px;
+}
+
+:local .footer {
+  padding-top: 100px;
+  width: 100%;
+  max-width: 840px;
+}

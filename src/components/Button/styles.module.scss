@@ -1,0 +1,47 @@
+:local .root {
+  border-radius: 4px;
+  background-color: #e0e1e2;
+  color: #5c5c5c;
+  fill: #5c5c5c;
+  padding: 16px;
+  border: 1px solid #e0e1e2;
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  &:hover {
+    background-color: darken(#e0e1e2, 10%);
+    border: 1px solid darken(#e0e1e2, 10%);
+    text-decoration: none;
+  }
+
+  &.isInline {
+    display: inline-block;
+    display: inline-flex;
+  }
+
+  &.hasIcon {
+    line-height: 0;
+  }
+
+  &.isPrimary {
+    background-color: #e44d5d;
+    color: white;
+    fill: white;
+    border: 1px solid #e44d5d;
+
+    &:hover {
+      background-color: #b74c58;
+      border: 1px solid #b74c58;
+    }
+  }
+}

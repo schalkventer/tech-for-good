@@ -1,0 +1,42 @@
+
+:local .root {
+  position: relative;
+}
+
+:local .button {
+  background: none;
+  border: none;
+  display: span;
+  padding: 0;
+  cursor: pointer;
+  color: #e44d5d;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.question {
+  transform: translatey(0);
+  width: 100%;
+  transition: transform 0.4s, opacity 0.3s;
+  opacity: 1;
+  
+  &.isHidden {
+    transform: translatey(-100%);
+    opacity: 0;
+  }
+}
+
+.success {
+  position: absolute;
+  width: 100%;
+  transition: top 0.4s, opacity 0.3s;
+  opacity: 0;
+  top: 100%;
+  
+  &.isActive {
+    top: 0;
+    opacity: 1;
+  }
+}
