@@ -10,7 +10,6 @@ export default function Index() {
       <Heading level={2}>🌍 What is Tech for Good?</Heading>
       <p>
         <em>Tech for Good</em> member is a 200+ strong community of South African tech professionals interested in using their skills after-hours for social good.
-        <a href="#" className="block pt-4">Why Tech for Good?</a>
       </p>
 
       <Heading level={2}>👪 Can I join?</Heading>
