@@ -48,7 +48,7 @@ export default function Layout({ location, children, data }) {
         All material licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>
       </Fineprint>
       <Fineprint>
-        <a target="_blank" href="https://github.com/tech-for-good/tech-for-good.github.io">Contribute to Tech for Good on Github</a>
+        <a target="_blank" href="https://github.com/schalkventer/tech-for-good">Contribute to Tech for Good on Github</a>
       </Fineprint>
     </div>
   )
