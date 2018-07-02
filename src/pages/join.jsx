@@ -25,7 +25,7 @@ export default function Index() {
       <Heading level={2}>How do I join #tech-for-good?</Heading>
       <ol>
         <li>
-          <p>Join one of the above workspaces </p>
+          <p>Join one of the below workspaces </p>
           <Fineprint>You can choose either, all #tech-for-good messages are synchronised between both.</Fineprint>
           <ul className="list-reset pt-4">
             <li className="p-2">
