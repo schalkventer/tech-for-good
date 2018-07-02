@@ -42,6 +42,20 @@ export default function Index() {
         <li>Activists</li>
       </ul>
 
+      <Heading level={2}>Venue</Heading>
+      <p className="pb-6">The Hackathon will be hosterd at <a href="http://codebridge.org.za/" target="_blank">CodeBridge</a> in Claremont, Cape Town.</p>
+
+      <ul className="pb-6">
+        <li>Address: Thicket Street, Claremont, ZA.</li>
+        <li>Google Maps Link: <a href="https://goo.gl/maps/waAqLwiUbV52">-33.976559,18.466614</a></li>
+      </ul>
+
+      <p className="pb-6">We are literally inside the Campground Road bridge which goes over the railway line in Claremont. We are on the same side of the railway as Main Road, and our parking lot is on the opposite side of Campground Road to Pick n Pay. You can punch Codebridge into Google maps and it should find us. Also, look out for signs to the Park Inn hotel. We are diagonally across from there.</p>
+
+      <p className="pb-6">You can get to the parking lot by following Hemlock Street which is just off Claremont Boulvard. The parking lot is a large gravel parking lot directly adjacent to the bridge.</p>
+
+      <p className="pb-6">The entrance is at the back corner furthest from Main Road once you're inside the parking lot. Just look out for the Codebridge sign on the wall.</p>
+
       <Heading level={2}>RSVP</Heading>
       <p className="pb-6">You can reserve your spot in one of two ways:</p>
       <ul>
