@@ -60,7 +60,7 @@ export default function Index() {
       <p className="pb-6">You can reserve your spot in one of two ways:</p>
       <ul>
         <li>You can RSVP for the event on our <a href="https://www.meetup.com/OpenUp/events/252027303/" target="_blank">Meetup.com profile</a> if you have an account</li>
-        <li>Alternatively, you send Schalk an email indicating that you (and/or friends) would like to attend <a href="mailto:schalkventer@openup.org.za">schalkventer@openup.org.za</a>.</li>
+        <li>Alternatively, you send Schalk an email indicating that you (and/or friends) would like to attend <a href="mailto:schalk@openup.org.za">schalk@openup.org.za</a>.</li>
       </ul>
     </div>
   )
