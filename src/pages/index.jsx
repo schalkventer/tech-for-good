@@ -24,11 +24,6 @@ export default function Index() {
         <li className="p-2">
           <Button link="/join">Join our discussion channel on Slack</Button>
         </li>
-        <li className="p-2">
-          <Button primary link="/2018">
-            <DaysRemaining deadline="14 July 2018" template={days => `Join us for Mandela Day (${days} days remaining)`}/>
-          </Button>
-        </li>
       </ul>
     </div>
   )
