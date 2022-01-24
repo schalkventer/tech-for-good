@@ -16,13 +16,16 @@ export default function Index() {
       <p>Yes! We are an open community, this means that we believe everyone has something of value to add - irrespective of skill, commitment level or background.</p>
 
       <Heading level={2}>🚀 Let's get started!</Heading>
-      <p>Great! There are three thing you can do right now:</p>
+      <p>Great! There are three things you can do right now:</p>
       <ul className="list-reset pt-4">
         <li className="p-2">
-          <Button link="http://eepurl.com/dzyYqn">Sign up to our monthly newsletter</Button>
+          <Button link="/join">Join our discussion channel on Slack</Button>
         </li>
         <li className="p-2">
-          <Button link="/join">Join our discussion channel on Slack</Button>
+          <Button link="https://www.meetup.com/Codebridge/">Join Codebridge meetups (remote or Cape Town)</Button>
+        </li>
+        <li className="p-2">
+          <p>Share more related events with the community!</p>
         </li>
       </ul>
     </div>
